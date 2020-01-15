@@ -856,3 +856,13 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+		#loading {
+           background: url('https://i.pinimg.com/originals/12/6c/a6/126ca6bcc2616e4edf09f466e9925396.gif') no-repeat center center;
+           position: absolute;
+           top: 0;
+           left: 0;
+           height: 100%;
+           width: 100%;
+           z-index: 9999999;
+        }

@@ -2,6 +2,9 @@
 <!--
 	
 -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <html>
 	<head>
 
@@ -15,6 +18,23 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
+	<div id="loading">
+
+	<script type="text/javascript">
+		function hideLoader() {
+    $('#loading').hide();
+}
+
+$(window).ready(hideLoader);
+
+// Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
+setTimeout(hideLoader, 20 * 1000);
+	</script>
+
+		
+	</div>
+
 	<body class="is-loading">
 
 		<!-- Wrapper -->
@@ -32,7 +52,6 @@
 							<ul class="icons">
 								
 								<li><a target="_blank" href="https://www.linkedin.com/in/william-m-95640612a/" class="fa-linkedin">LinkedIn</a></li>
-								<li><a target="_blank" href="idioma.html" class="fa-file">Curriculo</a></li>
 								<li><a href="mailto:williamrasengan19@gmail.com" class="fa-send">Email</a></li>
 								<li><a target="_blank" href="https://mega.nz/#F!1DpAhAxT!0b2XpUNRH-IfuK1j1s5TuQ" class="fa-cloud">Nuvem</a></li>
 								<li><a href="tel:+55(12)-98298-4692" class="fa-phone">Telefone</a></li>
@@ -43,7 +62,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
-							<li>&copy; 2018 William Marques</li> <li> Coded With Love From 🇧🇷 <li/>
+							<li>&copy; 2018 William Marques</li>
 						</ul>
 					</footer>
 
